@@ -7,7 +7,8 @@ public class tinhtong {
         int N = scanner.nextInt();
         int S = 0;
         for (int i = 1; i <= N; i++) {
-            int NN = Integer.parseInt(i + "" + i);
+            String numStr = i + "" + i; 
+            int NN = Integer.parseInt(numStr); 
             S += NN;
         }
         System.out.println("Tong S = " + S);
